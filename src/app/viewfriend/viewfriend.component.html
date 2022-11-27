@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">NAME</th>
+        <th scope="col">FRIEND NAME</th>
+        <th scope="col">FRIEND NICK NAME</th>
+        <th scope="col">DESCRIBE YOUR FRIEND</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of data">
+        <td>{{i.name}}</td>
+        <td>{{i.friendName}}</td>
+        <td>{{i.friendNickName}}</td>
+        <td>{{i.DescribeYourFriend}}</td>
+
+      </tr>
+   
+    </tbody>
+  </table>
